@@ -1,0 +1,40 @@
+
+            .modal-descripcion{
+              text-align: center;
+              color: rgb(255, 255, 255);
+              background-image: url(img/house2.jpg);              
+              font-weight: bold;
+            }
+           
+          /*   .modal-descripcion .close-animatedModal {
+              text-align: center;
+              background: gold;  
+              color: black;       
+              left: 100px;
+              right: 100px;
+              padding-top: 10px;
+              height: 50px;
+            } */
+            #animatedModal-1{
+              background-image: url(img/house.jpg); 
+            } 
+             .btn {
+              background: gold;
+              color: black;
+              text-align: center;
+
+
+            } 
+            .bg-warning{
+              color: black;
+             
+            }
+            .dinero{
+              color: green;
+              font-weight: bold;
+              text-align: center;
+            }
+            .lugar{
+              text-align: center;
+            }
+           
