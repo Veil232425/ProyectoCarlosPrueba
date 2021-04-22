@@ -1,4 +1,4 @@
-jQuery( document ).ready(function() { 
+/* jQuery( document ).ready(function() { 
      
     $( '#my-slider' ).sliderPro({
       width: 1160, 
@@ -334,3 +334,4 @@ $( '#my-slider2' ).sliderPro({
     
     
     })
+ */

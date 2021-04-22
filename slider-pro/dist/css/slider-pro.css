@@ -283,7 +283,7 @@
 /* Layers
 --------------------------------------------------*/
 .sp-layer {
-	position: absolute;
+	position: static;
 	margin: 0;
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
