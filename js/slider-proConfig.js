@@ -12,7 +12,7 @@ jQuery( document ).ready(function() {
       shuffle: false,
     
       thumbnailArrows: true,
-      autoplay: true,
+      autoplay: false,
       thumbnailWidth: 200,
       thumbnailHeight: 200,
       breakpoints: {
@@ -45,7 +45,7 @@ $( '#my-slider1' ).sliderPro({
       shuffle: false,
     
       thumbnailArrows: true,
-      autoplay: true,
+      autoplay: false,
       thumbnailWidth: 200,
       thumbnailHeight: 200,
       breakpoints: {
@@ -77,7 +77,7 @@ $( '#my-slider2' ).sliderPro({
       fullScreen: true,
       shuffle: false, 
       thumbnailArrows: true,
-      autoplay: true,
+      autoplay: false,
       thumbnailWidth: 200,
       thumbnailHeight: 200,
       breakpoints: {
@@ -111,7 +111,7 @@ $( '#my-slider2' ).sliderPro({
       fullScreen: true,
       shuffle: false, 
       thumbnailArrows: true,
-      autoplay: true,
+      autoplay: false,
       thumbnailWidth: 200,
       thumbnailHeight: 200,
       breakpoints: {
@@ -144,7 +144,7 @@ $( '#my-slider2' ).sliderPro({
       fullScreen: true,
       shuffle: false, 
       thumbnailArrows: true,
-      autoplay: true,
+      autoplay: false,
       thumbnailWidth: 200,
       thumbnailHeight: 200,
       breakpoints: {
@@ -177,7 +177,7 @@ $( '#my-slider2' ).sliderPro({
       fullScreen: true,
       shuffle: false, 
       thumbnailArrows: true,
-      autoplay: true,
+      autoplay: false,
       thumbnailWidth: 200,
       thumbnailHeight: 200,
       breakpoints: {
@@ -210,7 +210,7 @@ $( '#my-slider2' ).sliderPro({
       fullScreen: true,
       shuffle: false, 
       thumbnailArrows: true,
-      autoplay: true,
+      autoplay: false,
       thumbnailWidth: 200,
       thumbnailHeight: 200,
       breakpoints: {
@@ -243,7 +243,7 @@ $( '#my-slider2' ).sliderPro({
       fullScreen: true,
       shuffle: false, 
       thumbnailArrows: true,
-      autoplay: true,
+      autoplay: false,
       thumbnailWidth: 200,
       thumbnailHeight: 200,
       breakpoints: {
@@ -276,7 +276,7 @@ $( '#my-slider2' ).sliderPro({
       fullScreen: true,
       shuffle: false, 
       thumbnailArrows: true,
-      autoplay: true,
+      autoplay: false,
       thumbnailWidth: 200,
       thumbnailHeight: 200,
       breakpoints: {
@@ -309,7 +309,7 @@ $( '#my-slider2' ).sliderPro({
       fullScreen: true,
       shuffle: false, 
       thumbnailArrows: true,
-      autoplay: true,
+      autoplay: false,
       thumbnailWidth: 200,
       thumbnailHeight: 200,
       breakpoints: {
