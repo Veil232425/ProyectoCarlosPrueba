@@ -106,7 +106,28 @@ $(document).ready(function() {
   $(".tm-section-0").fadeIn();
   $(`.secciones`).fadeOut();
   
+  for(i=1; i<11;i++){
+    $(`.close-animatedModal-${i}`).addClass("close-animatedModal"); 
+    $(`#animatedModal-${i}`).addClass("animatedModalToApply"); 
+  } 
 
+   
+  function openWhatsApp() {  
+    window.open('https://wa.me/+51970406407');  
+    }  
+  
+  
+     $("#modal1").animatedModal();
+     $("#modal2").animatedModal();
+     $("#modal3").animatedModal();
+     $("#modal4").animatedModal();
+     $("#modal5").animatedModal();
+     $("#modal6").animatedModal();
+     $("#modal7").animatedModal();
+     $("#modal8").animatedModal();
+     $("#modal9").animatedModal();
+     $("#modal10").animatedModal();
+    
 
   
   // Set Background images
