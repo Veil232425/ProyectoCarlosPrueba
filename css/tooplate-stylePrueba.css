@@ -30,7 +30,6 @@ footer a:link, footer a:visited {
 .tm-main-container {
   position: relative;
   height: 100%;
- 
 }
 
 .tm-top-container {
@@ -88,17 +87,10 @@ footer a:link, footer a:visited {
 }
 
 .tm-site-header-box {
- 
   display: inline-block;
-  padding: 40px 80px 40px 40px; 
-  margin: 40px 180px 100px 380px;
-  width: 800px;
-}
-/* .header1 .container-fluid{
   padding: 40px 80px 40px 40px;
-  margin: 40px 180px 100px 380px;
-
-} */
+  margin: 40px 40px 100px;
+}
 
 .tm-site-title {
   font-size: 3.6rem;
@@ -148,131 +140,7 @@ footer a:link, footer a:visited {
   margin-top: 70px;
   max-width: 420px;
 }
-/*  .tm-section-2{
-  margin-left: 30px;
-  margin-right: 200px;
-  position: static;
-  margin-top: 100px;
-  margin-bottom: 200px;
-  max-width: 200px;
-  height: 400px;
-}  */
- .secciones {
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  width: 1400px;
-  height:1500px;
-  top: 420px;
-}
 
-/* .secciones > div{
-  display: flex;
-  flex-direction: column;
-  align-content: space-between;
-  width: 400px;
-} */
- .section-3 {
-  position: relative;
-  left: 100px;
-  justify-content: center;
-  width: 1200px;
-  height: 900px;
-
-}
-
-.section-4 {
-  top: 200px;
-  position: relative;
-  left: 100px;
-  justify-content: center;
-  width: 1200px;
-  height: 900px;
-  
-
-}  
-
-.section-5{
-  top: 400px;
-  position: relative;
-  left: 100px;
-  justify-content: center;
-  width: 1200px;
-  height: 900px;
-  
-
-}
-
-.section-6{
-  top: 600px;
-  position: relative;
-  left: 100px;
-  justify-content: center;
-  width: 1200px;
-  height: 900px;
-  
-
-}
-.section-7{
-  top: 800px;
-  position: relative;
-  left: 100px;
-  justify-content: center;
-  width: 1200px;
-  height: 900px;
-  
-
-}
-.section-8{
-  top: 1000px;
-  position: relative;
-  left: 100px;
-  justify-content: center;
-  width: 1200px;
-  height: 900px;
-  
-
-}
-.section-9{
-  top: 1200px;
-  position: relative;
-  left: 100px;
-  justify-content: center;
-  width: 1200px;
-  height: 900px;
-  
-
-}
-.section-10{
-  top: 1400px;
-  position: relative;
-  left: 100px;
-  justify-content: center;
-  width: 1200px;
-  height: 900px;
-  
-
-}
-.section-11{
-  top: 1600px;
-  position: relative;
-  left: 100px;
-  justify-content: center;
-  width: 1200px;
-  height: 900px;
-  
-
-}
-.section-12{
-  top: 1800px;
-  position: relative;
-  left: 100px;
-  justify-content: center;
-  width: 1200px;
-  height: 900px;
-  
-
-}
 .tm-link:link,
 .tm-link:visited {
   background-color: white;
@@ -732,8 +600,6 @@ figure.effect-goliath:hover p {
 
   .tm-site-header-box {
     margin-bottom: 0;
-    align-content: center;
-    margin-left: 0px;
   }
 
   .tm-nav {
@@ -741,10 +607,6 @@ figure.effect-goliath:hover p {
     margin-right: 40px;
   }
 
-  .tm-site-header-box{
-    justify-content: center;
-    
-  }
   .tm-section {
     margin: 0 auto;
     padding-left: 15px;
@@ -775,10 +637,6 @@ figure.effect-goliath:hover p {
     position: static;
     margin-top: 30px;
   }
-  .tm-site-header-box{
-    justify-content: center;
-    
-  }
 
   .slick-dotted.slick-slider {
     margin-bottom: 0;
@@ -793,5 +651,3 @@ figure.effect-goliath:hover p {
 .tm-static {
   position: static;
 }
-
-/*Nuevas reglas*/
