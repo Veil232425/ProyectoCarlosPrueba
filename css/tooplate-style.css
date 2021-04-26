@@ -793,5 +793,53 @@ figure.effect-goliath:hover p {
 .tm-static {
   position: static;
 }
+@media (max-width: 360px) {
+  .tm-site-title {
+    font-size: 3rem;
+  }
+  .tm-top-container {
+    flex-direction: column-reverse;
+  }
+  
+  h2.tm-section-title{
+    font-size: 2.5rem;
+  }
+
+  .tm-site-header-box {
+    margin-bottom: 0;
+    align-content: center;
+    margin-left: 0px;
+    width:400px;
+  }
+
+  .tm-nav {
+    align-self: flex-end;
+    margin-right: 40px;
+  }
+
+  .tm-site-header-box{
+    justify-content: center;
+    
+  }
+  .tm-section {
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+  }
+
+  .tm-section-title {
+    margin-left: 0;
+    font-size: 3rem;
+  }
+
+  .grid {
+    max-width: 420px;
+  }
+
+  .slick-dots {
+    bottom: -35px;
+  }
+}
 
 /*Nuevas reglas*/
