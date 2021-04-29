@@ -1,18 +1,44 @@
 .imageText{
     position: absolute;
     display: inline-block;
-    top: 380px;
+    top: 10px;
     right: 600px;
     padding-top: 0px;
     margin-top: 0px;
+    padding-left:30px;
+    height:60px;
+    width:500px;
+    z-index:1;
   }
   
+  /* .imageText:hover{
+    width: 350px;
+    height: 100px;
+
+  } */
+  
   .whatsAppImage{
+    position: absolute;
     display: inline-block;
+    width: 200px;
+    height: 200px; 
+    right: 180px;
+    z-index: 10;
+   /*  transition: width 2s,height 2s; */
   } 
-   .modal-content{
-     height: 100%;
-   }
+  
+
+   .whatsAppImage:hover{
+    position: absolute;
+    width: 300px;
+    height: 300px; 
+    top:-25px;
+    z-index: 10;
+  }
+
+  .modal-content{
+    height: 100%;
+  }
   
     .modal-descripcion{         
             text-align: center;

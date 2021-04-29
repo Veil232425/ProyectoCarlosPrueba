@@ -34,12 +34,15 @@
 
 .sp-image-container {
 	overflow: hidden;
+	position: static; /*agregado de position: static*/
 }
 
 .sp-image {
-	position: relative;
+	position: static;/*cambio de position relative a position static*/
 	display: block;
 	border: none;
+	margin-left:0px; /*agregado de margin-left de 0px;*/
+	margin-top: 0px; /*agregado de margin-top de 0px;*/
 }
 
 .sp-no-js {
@@ -92,11 +95,12 @@
 }
 
 .sp-thumbnail {
+	position: static; /*agregado de static*/
     border: none;
 }
 
 .sp-thumbnail-container {
-	position: relative;
+	position: static; /*cambiado de relative a static*/
 	display: block;
 	overflow: hidden;
 	float: left;

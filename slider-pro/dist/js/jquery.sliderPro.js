@@ -2250,7 +2250,9 @@
 				this.$thumbnail.css({ width: 'auto', height: '100%' });
 			}
 
-			this.$thumbnail.css({ 'marginLeft': ( this.$thumbnailContainer.width() - this.$thumbnail.width() ) * 0.5, 'marginTop': ( this.$thumbnailContainer.height() - this.$thumbnail.height() ) * 0.5 });
+			this.$thumbnail.css({ 'marginLeft': '0px;', 'marginTop': '0px;' });
+		   /*  this.$thumbnail.css({ 'marginLeft': ( this.$thumbnailContainer.width() - this.$thumbnail.width() ) * 0.5, 'marginTop': ( this.$thumbnailContainer.height() - this.$thumbnail.height() ) * 0.5 }); */
+		
 		},
 
 		// Destroy the thumbnail

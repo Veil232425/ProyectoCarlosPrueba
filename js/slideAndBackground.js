@@ -7,13 +7,17 @@ let bgCycle;
 let links;
 let eachNavLink;
 let enlaceImagen =  document.getElementById("paraRedireccion");
-
-
-
+function modalContacto(){
+$("#myModal").modal('show');
+}
 window.onload = function() {
   $("body").addClass("loaded");
   console.log(window.location.href);
 };
+function openWhatsApp() {  
+  window.open('https://wa.me/+51970406407');  
+  }  
+
 
 
 function navLinkClick(e) {
@@ -101,7 +105,7 @@ function navLinkClick(e) {
 
 $(document).ready(function() {
 
-
+ 
   $(".tm-section").fadeOut(0);
   $(".tm-section-0").fadeIn();
   $(`.secciones`).fadeOut();
@@ -112,11 +116,8 @@ $(document).ready(function() {
   } 
 
    
-  function openWhatsApp() {  
-    window.open('https://wa.me/+51970406407');  
-    }  
   
-  
+   
      $("#modal1").animatedModal();
      $("#modal2").animatedModal();
      $("#modal3").animatedModal();
