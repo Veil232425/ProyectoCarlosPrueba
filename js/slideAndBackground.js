@@ -7,6 +7,8 @@ let bgCycle;
 let links;
 let eachNavLink;
 let enlaceImagen =  document.getElementById("paraRedireccion");
+
+
 function modalContacto(){
 $("#myModal").modal('show');
 }
@@ -18,7 +20,13 @@ function openWhatsApp() {
   window.open('https://wa.me/+51970406407');  
   }  
 
-
+  function cerrarModal(){
+    for(i=1; i<11;i++){
+      $(`.close-animatedModal-${i}`).addClass("close-animatedModal"); 
+      $(`#animatedModal-${i}`).addClass("animatedModalToApply"); 
+    }   
+  }
+  
 
 function navLinkClick(e) {
   if ($(e.target).hasClass("external")) {
@@ -110,12 +118,7 @@ $(document).ready(function() {
   $(".tm-section-0").fadeIn();
   $(`.secciones`).fadeOut();
   
-  for(i=1; i<11;i++){
-    $(`.close-animatedModal-${i}`).addClass("close-animatedModal"); 
-    $(`#animatedModal-${i}`).addClass("animatedModalToApply"); 
-  } 
-
-   
+ 
   
    
      $("#modal1").animatedModal();
@@ -129,6 +132,7 @@ $(document).ready(function() {
      $("#modal9").animatedModal();
      $("#modal10").animatedModal();
     
+     cerrarModal();
 /*Aquí empieza el slider-pro*/
 $( '#my-slider' ).sliderPro({
   width: 1160, 

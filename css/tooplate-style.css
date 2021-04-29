@@ -162,7 +162,7 @@ footer a:link, footer a:visited {
   flex-direction: column;
   width: 1400px;
   height:1500px;
-  top: 420px;
+  top: 620px;
 }
 
 /* .secciones > div{
@@ -177,6 +177,7 @@ footer a:link, footer a:visited {
   justify-content: center;
   width: 1200px;
   height: 900px;
+  
 
 }
 
@@ -775,7 +776,8 @@ figure.effect-goliath:hover p {
     margin-top: 30px;
   }
   .tm-site-header-box{
-    justify-content: center;
+    align-content: center;
+    width:400px;
     
   }
 

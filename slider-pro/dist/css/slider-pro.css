@@ -20,6 +20,8 @@
 .sp-mask {
 	position: relative;
 	overflow: hidden;
+	margin-left: 0px; /*agregado de margin-left*/
+	margin-top:0px; /*agregado de margin-top*/
 }
 
 .sp-slides {
@@ -38,11 +40,13 @@
 }
 
 .sp-image {
-	position: static;/*cambio de position relative a position static*/
+	position: relative;/*cambio de position relative a position static*/
 	display: block;
 	border: none;
-	margin-left:0px; /*agregado de margin-left de 0px;*/
-	margin-top: 0px; /*agregado de margin-top de 0px;*/
+	margin-left: 0px;
+	margin-top : 0px;
+	left:0px; /*agregado de margin-left de 0px;*/
+	top: 0px; /*agregado de margin-top de 0px;*/
 }
 
 .sp-no-js {
@@ -320,8 +324,16 @@
 --------------------------------------------------*/
 .sp-grab {
 	cursor: url(images/openhand.cur), move;
+	margin-left: 0px; /*agregado de margin-left */
+	margin-top: 0px;  /*agregado de margin-top */
+	
 }
-
+/*agregado de .sp-mask .sp-grab*/
+.sp-mask .sp-grab{
+	margin-left: 0px; /*agregado de margin-left */
+	margin-top: 0px;
+}
+/********************/
 .sp-grabbing {
 	cursor: url(images/closedhand.cur), move;
 }
