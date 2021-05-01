@@ -29,7 +29,7 @@ const config = {
   }, config);
 
  
-  const imgs = document.querySelectorAll('[data-src]');
+  const imgs = document.querySelectorAll('[data-img]');
 
 imgs.forEach(img => {
   observer.observe(img);

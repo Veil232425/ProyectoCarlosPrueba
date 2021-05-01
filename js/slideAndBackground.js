@@ -144,7 +144,7 @@ $( '#my-slider' ).sliderPro({
   buttons: false,
   fullScreen: true,
   shuffle: false,
-
+  responsive: true,
   thumbnailArrows: true,
   autoplay: false,
   thumbnailWidth: 200,
@@ -167,7 +167,13 @@ $( '#my-slider' ).sliderPro({
         thumbnailsPosition: 'bottom',
         thumbnailWidth: 120,
         thumbnailHeight: 70
-      }
+      },
+
+       300: {   
+        thumbnailsPosition: 'bottom',
+        thumbnailWidth: 420,
+        thumbnailHeight: 70
+      } 
      }
 });
 $( '#my-slider1' ).sliderPro({

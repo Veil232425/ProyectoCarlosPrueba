@@ -841,6 +841,32 @@ figure.effect-goliath:hover p {
   .slick-dots {
     bottom: -35px;
   }
+
+  .section-3 {
+   
+    width: 300px;
+    margin-left:-70px;
+  } 
+   
+  .sp-slides{
+    width:200px;
+  }
+  .sp-slide{
+    width:300px;
+  }
+  .sp-thumbnails{
+    width:150px;
+  }
+ 
+ /*  .sp-image-container{
+    width:50px;
+  }
+   .sp-slide{
+    width: 50px;
+  } 
+  .sp-thumbnail{
+    width: 50px;
+  } */
 }
 
 /*Nuevas reglas*/
