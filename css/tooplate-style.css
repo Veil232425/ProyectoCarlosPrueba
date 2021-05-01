@@ -789,6 +789,21 @@ figure.effect-goliath:hover p {
   .tm-section-title {
     font-size: 2.4rem;
   }
+  .section-3 {
+   
+    width: 300px;
+    margin-left:-70px;
+  } 
+   
+  .sp-slides{
+    width:200px;
+  }
+  .sp-slide{
+    width:300px;
+  }
+  .sp-thumbnails{
+    width:150px;
+  }
 }
 
 .tm-static {
