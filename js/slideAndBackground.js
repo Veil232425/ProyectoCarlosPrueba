@@ -26,8 +26,32 @@ function openWhatsApp() {
       $(`#animatedModal-${i}`).addClass("animatedModalToApply"); 
     }   
   }
-  
 
+  function resize(){
+        
+    console.log(width + "Hola");
+    if(width===360){
+        for(let i=1; i < 11; i++){
+    
+            modal[i] = document.querySelector(`.close-animatedModal-${i}`);
+            modal[i].classList.add("close-animatedModalResponsive");
+                  console.log(modal[i]);
+          }
+        
+      }
+    }
+  
+ /*  function resize()
+      {
+        var width = window.innerWidth;
+        console.log("Estoy en el resize");
+        if(width===360){
+         
+         
+          }
+                 
+      } 
+      */
 function navLinkClick(e) {
   if ($(e.target).hasClass("external")) {
     return;
@@ -119,7 +143,7 @@ $(document).ready(function() {
   $(`.secciones`).fadeOut();
   
  
-  
+  window.onresize = resize;
    
      $("#modal1").animatedModal();
      $("#modal2").animatedModal();

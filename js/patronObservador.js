@@ -6,7 +6,7 @@ const config = {
   };
 
   function preloadImage(img) {
-    const src = img.getAttribute('data-src');
+    const src = img.getAttribute('data-img');
     if (!src) { return; }
     img.src = src;
   
@@ -29,7 +29,7 @@ const config = {
   }, config);
 
  
-  const imgs = document.querySelectorAll('[data-img]');
+  const imgs = document.querySelectorAll('img');
 
 imgs.forEach(img => {
   observer.observe(img);

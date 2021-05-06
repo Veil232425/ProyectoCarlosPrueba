@@ -37,7 +37,7 @@
   }
 
   .modal-content{
-    height: 100%;
+    height: auto;
   }
   
     .modal-descripcion{         
@@ -45,7 +45,7 @@
             color: rgb(255, 255, 255);
             background-image: url(../../img/house2.jpg);              
             font-weight: bold;
-            height: 180%;
+            height: auto;
              width: 100%;
             
         
@@ -60,6 +60,18 @@
       padding-top: 10px;
       height: 50px;
     }   
+
+    .close-animatedModalResponsive{
+      text-align: center;
+      background: green;  
+      color: black;       
+      left: 100px;
+      right: 100px;
+      padding-top: 10px;
+      height: 50px;
+      width: 50px;
+    }   
+  
   
   
     .animatedModalToApply{

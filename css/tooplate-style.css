@@ -273,6 +273,7 @@ footer a:link, footer a:visited {
   
 
 }
+
 .tm-link:link,
 .tm-link:visited {
   background-color: white;
@@ -712,6 +713,8 @@ figure.effect-goliath:hover p {
   display: none;
 }
 
+
+
 @media (max-width: 991px) {
   .tm-bottom-container {
     position: static;
@@ -794,6 +797,52 @@ figure.effect-goliath:hover p {
     width: 300px;
     margin-left:-70px;
   } 
+  .section-4 {
+   
+    width: 300px;
+    margin-left:-70px;
+  } 
+  .section-5 {
+   
+    width: 300px;
+    margin-left:-70px;
+  } 
+  .section-6 {
+   
+    width: 300px;
+    margin-left:-70px;
+  } 
+  .section-7{
+   
+    width: 300px;
+    margin-left:-70px;
+  } 
+  .section-8 {
+   
+    width: 300px;
+    margin-left:-70px;
+  } 
+  .section-9 {
+   
+    width: 300px;
+    margin-left:-70px;
+  } 
+  .section-10 {
+   
+    width: 300px;
+    margin-left:-70px;
+  } 
+  .section-11 {
+   
+    width: 300px;
+    margin-left:-70px;
+  } 
+
+  .section-12 {
+   
+    width: 300px;
+    margin-left:-70px;
+  } 
    
   .sp-slides{
     width:200px;
@@ -804,11 +853,19 @@ figure.effect-goliath:hover p {
   .sp-thumbnails{
     width:150px;
   }
+  table{
+    flex-direction: column;
+  }
+  table tr > *{
+    display: block;
 }
+ 
+
 
 .tm-static {
   position: static;
 }
+} 
 @media (max-width: 360px) {
   .tm-site-title {
     font-size: 3rem;
