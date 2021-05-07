@@ -45,8 +45,9 @@
             color: rgb(255, 255, 255);
             background-image: url(../../img/house2.jpg);              
             font-weight: bold;
-            height: auto;
-             width: 100%;
+            /* height: auto; */
+             max-width: 100%;
+             height: 100%;
             
         
     }
@@ -71,15 +72,24 @@
       height: 50px;
       width: 50px;
     }   
+       
   
   
   
     .animatedModalToApply{
-      background-image: url(/img/catarata.jpg);   
-      height: 100%;
-       width: 100%;          
+      background-image: url(/img/catarata.jpg) no-repeat; 
+      background-size: cover;
+      max-width:100%; 
+      max-height: 100%;
+      /* height: 100%;
+       width: 100%;   */        
   } 
-   
+ /*  .animatedModalToApply{
+    background-image: url(/img/catarata.jpg);   
+    height: 100%;
+     width: 100%;          
+} */ 
+ 
      .btn {
       background: gold;
       color: black;
@@ -99,3 +109,139 @@
     .lugar{
       text-align: center;
     }
+
+
+     /* @media (hover: none){
+      .whatsAppImage:hover{
+        position: absolute;
+        width: 50px;
+        height: 50px;      
+        z-index: 11;
+        
+      } 
+    } */ 
+    @media(max-width: 400px)   {
+  
+
+      .imageText{
+        position: absolute;
+        display: inline-block;
+        top: 20px;
+        right: 300px;
+        padding-top: 0px;
+        align-content: center;
+        margin-top: 0px;
+        padding-left:30px;
+        height:60px;
+        width:50px;
+        z-index:1;
+      }
+
+      .imageText.tm-bg-dark {
+        background: none;
+      
+      }     
+       
+      .tm-bg-dark1{
+        background: rgba(0, 0, 0, 0.7);
+        width: 290px;
+        height: 150px;
+        padding-left:20px;
+        padding-right:120px;
+      }
+      .whatsAppImage{
+        position: absolute;
+        /* display: inline-block; */
+        width: 80px;
+        height: 80px; 
+        right: 180px;
+        z-index: 10;
+        left: 120px;
+        top: 170px; 
+               
+       /*  transition: width 2s,height 2s; */
+      } 
+      @media (hover: hover) {
+        .whatsAppImage:hover {
+            position: absolute;
+            width: 120px;
+            height: 120px;      
+           
+          } 
+        }
+      
+     
+      .tm-site-title {
+        font-size: 3rem;
+      }
+      .secciones {
+        top:1000px;
+       }
+      .tm-top-container {
+        flex-direction: column-reverse;
+      }
+      
+      h2.tm-section-title{
+        font-size: 2.5rem;
+      }
+    
+      .tm-site-header-box {
+        margin-bottom: 0;
+        align-content: center;
+        margin-left: 0px;
+        width:400px;
+      }
+    
+      .tm-nav {
+        align-self: flex-end;
+        margin-right: 40px;
+      }
+    
+      .tm-site-header-box{
+        justify-content: center;
+        
+      }
+      .tm-section {
+        margin: 0 auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+      }
+    
+      .tm-section-title {
+        margin-left: 0;
+        font-size: 3rem;
+      }
+    
+      .grid {
+        max-width: 420px;
+      }
+    
+      .slick-dots {
+        bottom: -35px;
+      }
+    
+      .section-3 {
+       
+        width: 300px;
+        margin-left:-70px;
+      } 
+       
+      .sp-slides{
+        width:200px;
+      }
+      .sp-slide{
+        width:300px;
+      }
+      .sp-thumbnails{
+        width:150px;
+      
+      }
+
+    
+        
+      
+    }
+
+ 
+   

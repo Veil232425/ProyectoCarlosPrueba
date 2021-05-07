@@ -7,7 +7,7 @@ let bgCycle;
 let links;
 let eachNavLink;
 let enlaceImagen =  document.getElementById("paraRedireccion");
-
+let modal = [];
 
 function modalContacto(){
 $("#myModal").modal('show');
@@ -27,19 +27,6 @@ function openWhatsApp() {
     }   
   }
 
-  function resize(){
-        
-    console.log(width + "Hola");
-    if(width===360){
-        for(let i=1; i < 11; i++){
-    
-            modal[i] = document.querySelector(`.close-animatedModal-${i}`);
-            modal[i].classList.add("close-animatedModalResponsive");
-                  console.log(modal[i]);
-          }
-        
-      }
-    }
   
  /*  function resize()
       {
@@ -140,10 +127,31 @@ $(document).ready(function() {
  
   $(".tm-section").fadeOut(0);
   $(".tm-section-0").fadeIn();
-  $(`.secciones`).fadeOut();
+  $(`.secciones`).fadeOut();  
+
   
- 
-  window.onresize = resize;
+
+  
+ /*  function resize(){
+  let width = window.innerWidth; 
+  let widthNum = parseInt(width);
+    console.log(width + "Hola");
+    if(width >=300 && width <=400){
+       console.log("Estoy en el if");
+        for(let i=1; i < 11; i++){
+            modal[i] = document.querySelector(`#animatedModal-${i}`)
+            modal[i].classList.add("animatedMoldaResponsive");
+            modal[i] = document.querySelector(`.close-animatedModal-${i}`);
+            modal[i].classList.add("close-animatedModalResponsive");
+                  console.log(modal[i]);
+          }
+        
+      }
+    } 
+  window.onresize = resize; 
+    */
+
+
    
      $("#modal1").animatedModal();
      $("#modal2").animatedModal();
@@ -545,11 +553,16 @@ $( '#my-slider2' ).sliderPro({
   // window resize
   $(window).resize(function() {
     // If current page is Gallery page, set it up
-    if (currentImageId === 3) {
-      //setupSlider();
-      $(".tm-section-3").fadeIn();
-      
-    }
+    let width = window.innerWidth;
+    if(width>=360 && width <=400){
+        for(let i=1; i < 11; i++){
+    
+            modal[i] = document.querySelector(`.close-animatedModal-${i}`);
+            modal[i].classList.add("close-animatedModalResponsive");
+                  console.log(modal[i]);
+          }
+        
+      }
 
     // Adjust footer
        adjustFooter();

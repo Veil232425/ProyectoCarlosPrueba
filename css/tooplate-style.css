@@ -60,10 +60,12 @@ footer a:link, footer a:visited {
 .tm-nav {
   margin: 30px;
   text-transform: uppercase;
+  
 }
 
 .tm-nav-links {
   list-style: none;
+ 
 }
 
 .tm-nav-link:link,
@@ -160,7 +162,7 @@ footer a:link, footer a:visited {
   position: absolute;
   display: flex;
   flex-direction: column;
-  width: 1400px;
+  max-width: 100%;
   height:1500px;
   top: 620px;
 }
@@ -770,6 +772,13 @@ figure.effect-goliath:hover p {
 }
 
 @media (max-width: 480px) {
+
+  .tm-contact-form {
+   position: absolute;
+   top:300px;
+   align-content: center;
+   left:10px;
+  }
   .grid {
     max-width: 220px;
   }
@@ -793,55 +802,76 @@ figure.effect-goliath:hover p {
     font-size: 2.4rem;
   }
   .section-3 {
-   
+    
     width: 300px;
     margin-left:-70px;
+    height: 100%
   } 
   .section-4 {
-   
+    position: relative;
+    top: 200px;
     width: 300px;
     margin-left:-70px;
+    height: 100%
+  
   } 
   .section-5 {
-   
+    position: relative;
+    top: 400px;
     width: 300px;
     margin-left:-70px;
+    height: 100%
+  
   } 
   .section-6 {
-   
+    position: relative;
+    top: 600px;
     width: 300px;
     margin-left:-70px;
+    height: 100%
   } 
   .section-7{
-   
+    position: relative;
+    top: 800px;
     width: 300px;
     margin-left:-70px;
+    height: 100%
   } 
   .section-8 {
-   
+    position: relative;
+    top: 1000px;
     width: 300px;
     margin-left:-70px;
+    height: 100%
   } 
   .section-9 {
-   
+    position: relative;
+    top: 1200px;
     width: 300px;
     margin-left:-70px;
+    height: 100%
   } 
   .section-10 {
-   
+    position: relative;
+    top: 1400px;
     width: 300px;
     margin-left:-70px;
+    height: 100%
   } 
   .section-11 {
-   
+    position: relative;
+    top: 1600px;
     width: 300px;
     margin-left:-70px;
+    height: 100%
   } 
 
   .section-12 {
-   
+    position: relative;
+    top: 1800px;
     width: 300px;
     margin-left:-70px;
+    height: 100%
   } 
    
   .sp-slides{
@@ -859,17 +889,54 @@ figure.effect-goliath:hover p {
   table tr > *{
     display: block;
 }
+.secciones {
+  position: relative;
+  top:200px;
  
+
+}
 
 
 .tm-static {
   position: static;
 }
+
+.imageText{
+  position: absolute;
+  display: inline-block;
+  top: 80px;
+  right: 250px;
+  padding-top: 0px;
+  align-content: center;
+  margin-top: 0px;
+  padding-left:30px;
+  height:60px;
+  width:50px;
+  z-index:1;
+}
 } 
-@media (max-width: 360px) {
+ /* @media (max-width: 360px) {
+  
+
+  .imageText{
+    position: absolute;
+    display: inline-block;
+    top: 80px;
+    right: 250px;
+    padding-top: 0px;
+    align-content: center;
+    margin-top: 0px;
+    padding-left:30px;
+    height:60px;
+    width:50px;
+    z-index:1;
+  }
   .tm-site-title {
     font-size: 3rem;
   }
+  .secciones {
+    top:1000px;
+   }
   .tm-top-container {
     flex-direction: column-reverse;
   }
@@ -929,16 +996,8 @@ figure.effect-goliath:hover p {
   .sp-thumbnails{
     width:150px;
   }
- 
- /*  .sp-image-container{
-    width:50px;
-  }
-   .sp-slide{
-    width: 50px;
-  } 
-  .sp-thumbnail{
-    width: 50px;
-  } */
-}
+  
+} */
 
+ 
 /*Nuevas reglas*/
